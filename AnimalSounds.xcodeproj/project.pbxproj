@@ -13,6 +13,10 @@
 		AF784737264BA9C7002E05E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF784722264BA9C4002E05E7 /* ContentView.swift */; };
 		AF784738264BA9C7002E05E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF784723264BA9C7002E05E7 /* Assets.xcassets */; };
 		AF784739264BA9C7002E05E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF784723264BA9C7002E05E7 /* Assets.xcassets */; };
+		AF784748264BAA5C002E05E7 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF784747264BAA5C002E05E7 /* SwiftUIView.swift */; };
+		AF784750264BAA94002E05E7 /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78474F264BAA94002E05E7 /* VehicleList.swift */; };
+		AF784756264BAAA9002E05E7 /* AnimalList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF784755264BAAA9002E05E7 /* AnimalList2.swift */; };
+		AF78475C264BAACE002E05E7 /* norimono.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78475B264BAACE002E05E7 /* norimono.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AF784730264BA9C7002E05E7 /* AnimalSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF784732264BA9C7002E05E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF784733264BA9C7002E05E7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AF784747264BAA5C002E05E7 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		AF78474F264BAA94002E05E7 /* VehicleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleList.swift; sourceTree = "<group>"; };
+		AF784755264BAAA9002E05E7 /* AnimalList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalList2.swift; sourceTree = "<group>"; };
+		AF78475B264BAACE002E05E7 /* norimono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = norimono.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				AF784721264BA9C4002E05E7 /* AnimalSoundsApp.swift */,
+				AF784747264BAA5C002E05E7 /* SwiftUIView.swift */,
 				AF784722264BA9C4002E05E7 /* ContentView.swift */,
+				AF78475B264BAACE002E05E7 /* norimono.swift */,
+				AF78474F264BAA94002E05E7 /* VehicleList.swift */,
+				AF784755264BAAA9002E05E7 /* AnimalList2.swift */,
 				AF784723264BA9C7002E05E7 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,8 +199,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF784756264BAAA9002E05E7 /* AnimalList2.swift in Sources */,
+				AF784750264BAA94002E05E7 /* VehicleList.swift in Sources */,
 				AF784736264BA9C7002E05E7 /* ContentView.swift in Sources */,
 				AF784734264BA9C7002E05E7 /* AnimalSoundsApp.swift in Sources */,
+				AF78475C264BAACE002E05E7 /* norimono.swift in Sources */,
+				AF784748264BAA5C002E05E7 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
