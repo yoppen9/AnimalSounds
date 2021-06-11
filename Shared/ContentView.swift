@@ -3,32 +3,9 @@
 //  AnimalPhone
 //
 //  Created by 山岸善将 on 2021/03/18.
-//
 
 import SwiftUI
 import AVFoundation
-
-//enum DviceTraitStatus {
-//    case wRhR
-//    case wChR
-//    case wRhC
-//    case wChC
-//
-//    init(hSizeClass: UserInterfaceSizeClass?, vSizeClass: UserInterfaceSizeClass?) {
-//        switch (hSizeClass, vSizeClass){
-//        case (.regular, .regular):
-//            self = .wRhR
-//        case (.compact, .regular):
-//            self = .wChR
-//        case (.regular, .compact):
-//            self = .wRhC
-//        case (.compact, .compact):
-//            self = .wRhR
-//        default:
-//            self = .wChR
-//        }
-//    }
-//}
 
 var player: AVAudioPlayer?
 
