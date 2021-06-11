@@ -22,6 +22,8 @@ import SwiftUI
 //    }
 //}
 
+//テスト
+
 class ViewModel: ObservableObject {
     @Published var time: Data?
 }
